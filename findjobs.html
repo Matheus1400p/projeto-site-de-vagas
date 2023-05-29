@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7f2ddf0c96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="findjobs" class="container">
+        <header>
+            <nav>
+                <div class="navegador">
+                    <a href="index.html">
+                        <img id="logo" src="./img/trabalho.png" alt="JobFinder">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="findjobs.html">Encontrar Vaga</a></li>
+                        <li><a href="searchjobs.html">Enviar Vaga</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main id="last-jobs" class="wrapper">
+            <h1>Busque a sua vaga</h1>
+            <div id="job-filter">
+                <div class="search-form">
+                    <form>
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="region">
+                            <option value="">Todos os estados</option>
+                        </select>
+                        <select name="category">
+                            <option value="">Categorias</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+            <div id="type-filter">
+                <ul>
+                    <li>
+                        <input type="checkbox" checked><label>CLT</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>PJ</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>Home Office</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>Free Lancer</label>
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (1).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Google</h3>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Mountain View, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Clt">CLT</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (2).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>IBM</h3>
+                                <p>DBA</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Armonk, New Yourk</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (3).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Linkedin</h3>
+                                <p>Front End Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Sunnyvale, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Home-office">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (4).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Facebook</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Menio Park, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Home-office">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btnjobs">
+                <a href="#" class="btn-jobs">Carregar mais vagas</a>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="img/trabalho.png" alt="JobFinder">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais fácil de encontrar seu próximo emprego.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Artigos rescentes</h2>
+                        <ul class="footer-list footer-article">
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>Matheus Pereira - 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

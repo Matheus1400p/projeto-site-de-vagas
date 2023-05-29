@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7f2ddf0c96.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="navegador">
+                    <a href="index.html">
+                        <img id="logo" src="./img/trabalho.png" alt="JobFinder">
+                    </a>
+                    <i class="fas fa-bars btn-menumobile"></i>
+                    <ul>
+                        <li><a href="findjobs.html">Encontrar Vaga</a></li>
+                        <li><a href="searchjobs.html">Enviar Vaga</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-banner">
+                <div class="search-form">
+                    <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
+                    <p>Conecte-se de forma gratuita as melhores empresas e consiga o emprego dos seus sonhos</p>
+                    <form action="formulario">
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="regiao">
+                            <option value="">Todos os estados</option>
+                        </select>
+                        <select name="Category">
+                            <option value="">Categorias</option>
+                        </select>
+                        <input type="submit" value="Pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <main id="last-jobs" class="wrapper">
+            <h1>Últimas vagas enviadas</h1>
+            <ul>
+                <li>
+                    <a href="job.html" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (1).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Google</h3>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Mountain View, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Clt">CLT</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (2).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>IBM</h3>
+                                <p>DBA</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Armonk, New Yourk</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Pj">PJ</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (3).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Linkedin</h3>
+                                <p>Front End Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Sunnyvale, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Home-office">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                            <img src="img/download (4).png" alt="googlelogo">
+                            <div class="company-info">
+                                <h3>Facebook</h3>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="locality">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Menio Park, California</p>
+                        </div>
+                        <div class="job-type">
+                            <span class="Home-office">Home Office</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btnjobs">
+                <a href="findjobs.html" class="btn-jobs">Ver mais vagas</a>
+            </div>
+        </main>
+        <section class="sendjobs">
+            <div id="send-jobs" class="wrapper">
+                <h2>Envie uma vaga que será vista por milhares de candidatos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iure mollitia animi veniam recusandae at porro. Iusto vitae modi totam, id eius impedit sapiente quae ex, saepe deleniti quidem? Voluptatibus?</p>
+                <a href="searchjobs.html" class="ligth-btn">Enviar vaga</a>
+            </div>
+        </section>
+        <section id="status" class="wrapper">
+            <h2 class="title-center">Estatísticas do JobFinder</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quibusdam ab eius magni, dolor veritatis fugit labore harum, illum, atque nemo deleniti autem perspiciatis ullam. Repellat reprehenderit doloribus aliquid inventore.</p>
+            <div>
+                <div class="status-box">
+                    <span class="status-qtd">150</span>
+                    <p class="status-text">Vagas abertas</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">250</span>
+                    <p class="status-text">Candidatos contratados</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">50</span>
+                    <p class="status-text">Empresas participantes</p>
+                </div>
+                <div class="status-box">
+                    <span class="status-qtd">550</span>
+                    <p class="status-text">Candidatos</p>
+                </div>
+            </div>
+        </section>
+        <section id="testmony">
+            <div class="wrapper">
+                <h2>Veja o que os candidatos dizem</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A praesentium tenetur consequatur quos molestias quasi, quas unde vel sunt culpa. Repudiandae commodi repellendus et dolorem vitae at provident id! Quas.</p>
+            </div>
+            <div class="testmony-box">
+                <p class="testmony-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ad, rerum quibusdam atque similique porro sunt hic obcaecati placeat libero distinctio.</p>
+                <img src="img/avatar-simples.png" alt="avatar-simples">
+                <p class="testmony-name">Amanda</p>
+            </div>
+            <div class="testmony-box">
+                <p class="testmony-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ad, rerum quibusdam atque similique porro sunt hic obcaecati placeat libero distinctio.</p>
+                <img src="img/avatar-simples.png" alt="avatar-simples">
+                <p class="testmony-name">Bruno</p>
+            </div>
+            <div class="testmony-box">
+                <p class="testmony-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ad, rerum quibusdam atque similique porro sunt hic obcaecati placeat libero distinctio.</p>
+                <img src="img/avatar-simples.png" alt="avatar-simples">
+                <p class="testmony-name">Carlos</p>
+            </div>
+            <div class="testmony-box">
+                <p class="testmony-msg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ad, rerum quibusdam atque similique porro sunt hic obcaecati placeat libero distinctio.</p>
+                <img src="img/avatar-simples.png" alt="avatar-simples">
+                <p class="testmony-name">Diana</p>
+            </div>
+        </section>
+        <section id="blog" class="wrapper">
+            <h2 class="title-center">Últimos artigos do nosso blog</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias illo quo error consequuntur voluptatem. Eius sequi molestias sed minus eligendi repudiandae, adipisci velit possimus beatae obcaecati corrupti doloremque ut excepturi.</p>
+            <div class="article-box">
+                <img src="img/proxyclick-visitor-management-system-l90zRbWvCoE-unsplash.jpg" alt="">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">05 de Fevereiro de 2023 | 10 comentários</p>
+                <p class="class-resume">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias illum molestiae sunt aperiam inventore culpa odio, nisi, et voluptatum earum cumque dolores, sit porro commodi magni atque nulla? Id, soluta.</p>
+                <a href="#" class="article-btn ligth-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="img/teste1.jpg" alt="">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">14 de abril de 2023 | 20 comentários</p>
+                <p class="class-resume">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias illum molestiae sunt aperiam inventore culpa odio, nisi, et voluptatum earum cumque dolores, sit porro commodi magni atque nulla? Id, soluta.</p>
+                <a href="#" class="article-btn ligth-btn">Ler post</a>
+            </div>
+            <div class="article-box">
+                <img src="img/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="">
+                <h4><a href="#">Article title</a></h4>
+                <p class="article-date">21 de maio 2023 | 05 comentários</p>
+                <p class="class-resume">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias illum molestiae sunt aperiam inventore culpa odio, nisi, et voluptatum earum cumque dolores, sit porro commodi magni atque nulla? Id, soluta.</p>
+                <a href="#" class="article-btn ligth-btn">Ler post</a>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="img/trabalho.png" alt="JobFinder">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais fácil de encontrar seu próximo emprego.</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Artigos rescentes</h2>
+                        <ul class="footer-list footer-article">
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise?</a>
+                                <span class="article-date">05 de Fevereiro de 2023</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos encontre nas redes sociais</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-square"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>Matheus Pereira - 2023</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
